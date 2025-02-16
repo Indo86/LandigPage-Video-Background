@@ -9,6 +9,7 @@
   flex-direction: row;
   height: 100vh;
   align-items: center;
+  visibility: hidden;
 }
 
 .content .moto{
@@ -22,7 +23,7 @@
 .content .social-media .icon-list{
   flex-direction: column;
   display: flex;
-  gap: 15px;
+
 }
 
 .content .social-media .icon-list li{
@@ -30,7 +31,6 @@
   background-color: #0d6efd;
   width: 50px;
   height: 50px;
-
   border-radius: 50%;
 }
 

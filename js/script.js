@@ -1,10 +1,7 @@
-$(document).ready(function(){
-  $('.content').hide();
-
-  $('.background-video').on('loadeddata', function(){
-    console.log("Video sudah dimuat!");
-    setTimeout(function(){
-      $('.content').fadeIn(2000);
-    }, 1000);
+$(document).ready(function() {
+  $('.background-video').on('loadeddata', function() {
+    setTimeout(function() {
+      $('.content').css('visibility', 'visible').addClass('animate__animated animate__fadeInUp');
+    }, 1100);
   });
 });
