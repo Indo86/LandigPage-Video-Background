@@ -4,15 +4,15 @@
   font-family:'Poppins', sans-serif;
 }
 
-nav{
-  position: fixed;
-}
-
 .content{
   display: flex;
   flex-direction: row;
   height: 90vh;
   align-items: center;
+}
+
+.content .moto{
+  color: aliceblue;
 }
 
 .content .social-media .icon a{
@@ -22,17 +22,15 @@ nav{
 .content .social-media .icon-list{
   flex-direction: column;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .content .social-media .icon-list li{
   list-style: none;
-  background-color: white;
+  background-color: #0d6efd;
   width: 50px;
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   border-radius: 50%;
 }
 
